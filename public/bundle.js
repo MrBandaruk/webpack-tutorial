@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nbody {\\n  color: white;\\n  background-color: #464646;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  height: 100vh; }\\n\\n._2ZEI2N0TrhsEqJGGsvDA1_ {\\n  font-size: 25px; }\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"title\": \"_2ZEI2N0TrhsEqJGGsvDA1_\"\n};\n\n//# sourceURL=webpack:///./src/styles.scss?./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nbody {\\n  color: white;\\n  background-color: #464646;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  height: 100vh; }\\n\\n._2ZEI2N0TrhsEqJGGsvDA1_ {\\n  width: 500px;\\n  height: 500px;\\n  align-items: center;\\n  justify-content: center;\\n  display: flex;\\n  font-size: 25px; }\\n\\n.exVzbDgWgieX_kZwBSMmG {\\n  width: 100px;\\n  height: 100px;\\n  display: block; }\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"title\": \"_2ZEI2N0TrhsEqJGGsvDA1_\",\n\t\"logo\": \"exVzbDgWgieX_kZwBSMmG\"\n};\n\n//# sourceURL=webpack:///./src/styles.scss?./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -161,7 +161,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _greeter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nvar greeter = new _greeter__WEBPACK_IMPORTED_MODULE_1__[\"Greeter\"]();\ngreeter.greet('Hello, Webpack!');\nconsole.log(_styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a);\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#app').text('Hello world!').addClass(_styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _greeter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./logo.png */ \"./src/logo.png\");\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_logo_png__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar greeter = new _greeter__WEBPACK_IMPORTED_MODULE_1__[\"Greeter\"]();\ngreeter.greet('Hello, Webpack!');\nconsole.log(_styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a);\nconsole.log(_logo_png__WEBPACK_IMPORTED_MODULE_3___default.a);\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#app').text('Hello world!').addClass(_styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.title).append(\"<img class='\".concat(_styles_scss__WEBPACK_IMPORTED_MODULE_2___default.a.logo, \"' src='\").concat(_logo_png__WEBPACK_IMPORTED_MODULE_3___default.a, \"'/>\"));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/logo.png":
+/*!**********************!*\
+  !*** ./src/logo.png ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"/img/logo.png\";\n\n//# sourceURL=webpack:///./src/logo.png?");
 
 /***/ }),
 

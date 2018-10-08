@@ -15,5 +15,16 @@ body {
 }
 
 .title {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     font-size: 25px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
 }
