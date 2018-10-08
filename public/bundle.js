@@ -105,7 +105,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Greeter\", function() { return Greeter; });\nclass Greeter {\r\n    greet(message){\r\n        console.log(message);\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/greeter.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Greeter\", function() { return Greeter; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar Greeter =\n/*#__PURE__*/\nfunction () {\n  function Greeter() {\n    _classCallCheck(this, Greeter);\n  }\n\n  _createClass(Greeter, [{\n    key: \"greet\",\n    value: function greet(message) {\n      console.log(message);\n    }\n  }]);\n\n  return Greeter;\n}();\n\n//# sourceURL=webpack:///./src/greeter.js?");
 
 /***/ }),
 
@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _greeter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\");\n\r\n\r\n\r\nvar greeter = new _greeter__WEBPACK_IMPORTED_MODULE_1__[\"Greeter\"]();\r\ngreeter.greet('Hello, Webpack!');\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#app').text('Hello world!');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _greeter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\");\n\n\nvar greeter = new _greeter__WEBPACK_IMPORTED_MODULE_1__[\"Greeter\"]();\ngreeter.greet('Hello, Webpack!');\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#app').text('Hello world!');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
