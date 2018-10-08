@@ -10,5 +10,5 @@ console.log(styles);
 console.log(logo);
 
 $('#app').text('Hello world!').addClass(styles.title)
-    .append(`<img class='${styles.logo}' src='${logo}'/>`);
+    .append(`<img class='${styles.logo}' src='.${logo}'/>`);
 
