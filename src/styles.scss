@@ -1,0 +1,19 @@
+$bg-color: rgb(70, 70, 70);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 25px;
+}
